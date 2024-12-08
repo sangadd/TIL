@@ -1,6 +1,6 @@
 package operator;
 
-public class Oprtator3 {
+public class Operator3 {
     public static void main(String[] args) {
         int sum1 = 2 * 2 + 3 * 3; // 2 * 2) + (3 * 3) 와 같음
         int sum2 = (2 * 2) + (3 * 3);
