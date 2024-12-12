@@ -13,8 +13,27 @@ public class Array6 {
         행은 로우 열은 컬럼이라고 함 (자주 사용하는 단어!)
 
         arr [행][열] , arr[row][column]
-
         */
+
+        // 2x3 2차원 배열을 만들기
+        int[][] arr = new int[2][3]; // 행은 2 열은 3
+
+        arr[0][0] = 1;
+        arr[0][1] = 2;
+        arr[0][2] = 3;
+        arr[1][0] = 4;
+        arr[1][1] = 5;
+        arr[1][2] = 6;
+
+        System.out.print(arr[0][0]);
+        System.out.print(arr[0][1]);
+        System.out.print(arr[0][2]);
+        System.out.println();
+
+        System.out.print(arr[1][0]);
+        System.out.print(arr[1][1]);
+        System.out.print(arr[1][2]);
+
     }
 }
 
